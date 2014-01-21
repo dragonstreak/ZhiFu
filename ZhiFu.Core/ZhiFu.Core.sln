@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhiFu.DataAccess.EFDF", "ZhiFu.DataAccess.EFDF\ZhiFu.DataAccess.EFDF.csproj", "{0078A82F-F27E-4A2B-ABA6-7A2C193A7ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhiFu.Biz", "ZhiFu.Biz\ZhiFu.Biz.csproj", "{2E751D8A-71D3-4008-B0F3-CD11016413DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CFD73FB6-4C8D-4BCC-832D-57A8CC561C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhiFu.DataAccess.EFDF.FunctionTest", "ZhiFu.DataAccess.EFDF.FunctionTest\ZhiFu.DataAccess.EFDF.FunctionTest.csproj", "{096C93B6-4FE8-4A86-AC8E-0E279B250D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhiFu.Biz.FunctionTest", "ZhiFu.Biz.FunctionTest\ZhiFu.Biz.FunctionTest.csproj", "{181079FC-8271-4472-988E-492A895C7C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{14C3D9A5-CB4C-47E8-A068-EA5922EF6793}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhiFu.Core.Common", "ZhiFu.Core.Common\ZhiFu.Core.Common.csproj", "{928720D1-EE06-418D-9FFD-D066343BCDBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0078A82F-F27E-4A2B-ABA6-7A2C193A7ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0078A82F-F27E-4A2B-ABA6-7A2C193A7ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0078A82F-F27E-4A2B-ABA6-7A2C193A7ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0078A82F-F27E-4A2B-ABA6-7A2C193A7ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E751D8A-71D3-4008-B0F3-CD11016413DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E751D8A-71D3-4008-B0F3-CD11016413DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E751D8A-71D3-4008-B0F3-CD11016413DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E751D8A-71D3-4008-B0F3-CD11016413DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096C93B6-4FE8-4A86-AC8E-0E279B250D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096C93B6-4FE8-4A86-AC8E-0E279B250D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096C93B6-4FE8-4A86-AC8E-0E279B250D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096C93B6-4FE8-4A86-AC8E-0E279B250D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181079FC-8271-4472-988E-492A895C7C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181079FC-8271-4472-988E-492A895C7C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181079FC-8271-4472-988E-492A895C7C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181079FC-8271-4472-988E-492A895C7C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928720D1-EE06-418D-9FFD-D066343BCDBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928720D1-EE06-418D-9FFD-D066343BCDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928720D1-EE06-418D-9FFD-D066343BCDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928720D1-EE06-418D-9FFD-D066343BCDBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{096C93B6-4FE8-4A86-AC8E-0E279B250D65} = {CFD73FB6-4C8D-4BCC-832D-57A8CC561C3F}
+		{181079FC-8271-4472-988E-492A895C7C83} = {CFD73FB6-4C8D-4BCC-832D-57A8CC561C3F}
+	EndGlobalSection
+EndGlobal
